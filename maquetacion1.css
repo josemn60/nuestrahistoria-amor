@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+#contenedor{
+ background: #d8d8d8;
+width: 1200px;
+height: 1000px;
+margin:0.5em auto;
+padding:0.5em;
+
+}
+#contenedo{
+ background: #d8d8d8;
+width: 1200px;
+height: 1350px;
+margin:0.5em auto;
+padding:0.5em;
+}
+
+#header{
+    height:20%;
+    border-radius:1em;
+    text-align: center;
+    margin:1em;
+    background:white;
+}
+#heade{
+    border-radius:1em;
+    text-align: center;
+    margin:1em;
+    background:white;
+}
+.imagen{
+    width: 1000px;
+    height:200px;
+    border-radius:1em;
+}
+
+#nav{
+    height: 8%;
+    background:beige;
+    border-radius:1em;
+    margin:1em;
+    text-align: center;
+    font-family: cursive;
+}
+
+h3{
+   color:brown;
+    margin: 15px;
+}
+
+h2{
+    color: antiquewhite;
+    text-align: center;
+}
+
+#caja{
+    height: 40%;
+    margin:1em;
+    max-width: 100%;
+}
+
+#caja1{
+    height: 50%;
+    margin:1em;
+    max-width: 100%;
+    background: beige;
+}
+
+#footer{
+    height: 15%;
+    background:beige;
+    border-radius:1em;
+    margin: 1em;
+    text-align:center;
+    font-family: cursive;
+    float: left;
+    width:1165px; /*Le establecemos un ancho*/   
+}
+
+#section{
+    height: 95%;
+    width: 71%;
+    background:white;
+    border-radius:1em;
+    float:left;
+    margin:0.5em;
+    text-align:center;
+}
+
+#section1{
+    text-align: center;
+}
+
+#aside{
+    height: 95%;
+    width: 25%;
+    background:white;
+    border-radius:1em;
+    float:right;
+    margin:0.5em;
+    text-align:center;
+}
+
+.foto{
+    width:250px;
+    height:95%;
+    border-radius:1em;
+    margin:0.6em;
+}
+
+.foto1{
+    width:200px;
+    height:250px;
+    padding:1em;
+    margin:30px;
+    background:#b5936f;
+    display: flex;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.articulo{
+    background:#b5936f;
+    height: 18%;
+    width: 96%;
+    margin:1em;
+    border-radius:1em;
+    display: table;
+    position: relative;
+}
+
+.articulo h3{
+    width: 94%;
+    margin:0;
+    padding:0.3em;
+    display:table-cell;
+    vertical-align:middle;
+    font-size:0.7rem;
+    font-family: cursive;
+    color: antiquewhite;
+    position: absolute;
+}
+
+h1{
+    font-family: cursive;
+    color:antiquewhite;
+    text-align: center;
+}
+
+h2{
+    color: black;
+}
+
+parte del menu
+
+			ul, li{
+				list-style:none;
+                margin: 20px 5px 20px 5px;
+                	}
+			
+			.nav {
+                width:650px; /*Le establecemos un ancho*/
+				margin: auto; /*Centramos automaticamente*/     
+			}
+ 
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+                border-radius:1em;
+				background-color:white;
+				color:brown;
+				text-decoration:none;
+				padding:10px 30px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#b5936f;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+}
+			
